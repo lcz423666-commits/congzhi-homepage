@@ -6,6 +6,7 @@ import { ToolsSection } from '@/sections/ToolsSection';
 import { ProjectsSection } from '@/sections/ProjectsSection';
 import { ToolsShowcaseSection } from '@/sections/ToolsShowcaseSection';
 import { Heart, Github as GithubIcon } from 'lucide-react';
+import { ChatWidget } from '@/components/ChatWidget';
 
 function App() {
   return (
@@ -68,6 +69,8 @@ function App() {
           </div>
         </div>
       </footer>
+
+      <ChatWidget />
     </div>
   );
 }
